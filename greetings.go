@@ -20,7 +20,7 @@ func Hello(name string) (string,error) {
 }
 
 
-func randomFormat() string{
+func randomFormat() string {
     formats := []string{
         "Hi, %v. Welcome",
         "Great to see you, %v",
