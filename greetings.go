@@ -21,7 +21,7 @@ func Hello(name string) (string,error) {
 
 
 func randomFormat() string {
-    formats := []strings{
+    formats := []string{
         "Hi, %v. Welcome",
         "Great to see you, %v",
         "Hail, %v! Well met!",
