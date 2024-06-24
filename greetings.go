@@ -18,8 +18,8 @@ func Hello(name string) (string, error) {
     return message, nil
 }
 
-randomFormat returns one of a set of greeting messages. The returned
-message is selected at random.
+//randomFormat returns one of a set of greeting messages. The returned
+//message is selected at random.
 func randomFormat() string {
     // A slice of message formats.
     formats := []string{
