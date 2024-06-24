@@ -9,7 +9,7 @@ import (
 
 // Hello returns a greeting for the named person.
 func Hello(name string) (string, error) {
-    // If no name was given, return an error with a message.
+    // If no name was given, return an error with a message. somethisn
     if name == "" {
         return name, errors.New("empty name")
     }
