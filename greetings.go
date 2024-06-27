@@ -7,7 +7,7 @@ import (
     //"strings"
 )
 
-// v0 semantic version
+// v1 semantic version
 
 
 // Hello returns a greeting for the named person.
